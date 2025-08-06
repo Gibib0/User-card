@@ -70,3 +70,14 @@ body {
 	text-align: center;
 	font-size: 12px;
 }
+
+.follow-button {
+	background-color: rgb(121, 168, 255);
+	color: white;
+	padding: 12px 40px;
+	border-radius: 10px;
+	font-size: 15px;
+	font-weight: bold;
+	border: none;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
