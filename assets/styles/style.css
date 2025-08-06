@@ -3,10 +3,11 @@
 }
 
 .container {
-	border: 10px solid rgb(180, 255, 180);
+	border: 10px solid rgb(0, 255, 179);
+	border-radius: 30px;
 	width: 450px;
 	height: 600px;
-		margin: 0 auto;
+	margin: 0 auto;
 }
 
 .header {
@@ -34,4 +35,18 @@
 	border-radius: 50%;
 	object-fit: cover;
 	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.info-header {
+	text-align: center;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.info-main > p {
+	width: 75%;
+	margin: auto;
+	text-align: center;
+	font-size: 15px;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
