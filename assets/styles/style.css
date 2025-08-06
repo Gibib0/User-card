@@ -2,10 +2,18 @@
 	box-sizing: border-box;
 }
 
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
 .container {
 	border: 10px solid rgb(0, 255, 179);
 	border-radius: 30px;
-	width: 450px;
+	width: 400px;
 	height: 600px;
 	margin: 0 auto;
 }
@@ -19,6 +27,7 @@
 
 .location {
 	text-align: center;
+	font-size: 14px;
 }
 
 .img-container {
@@ -39,8 +48,6 @@
 
 .info-header {
 	text-align: center;
-	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
 }
 
 .info-main > p {
@@ -48,5 +55,4 @@
 	margin: auto;
 	text-align: center;
 	font-size: 15px;
-	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
