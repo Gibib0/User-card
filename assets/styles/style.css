@@ -1,0 +1,9 @@
+* {
+	box-sizing: border-box;
+}
+
+.container {
+	border: 1px solid green;
+	width: 450px;
+	height: 600px;
+}
